@@ -5,4 +5,5 @@
   display: grid;
   grid-template: repeat(auto-fit, minmax(213px, 1fr)) / repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
+  min-height: 671px;
 }

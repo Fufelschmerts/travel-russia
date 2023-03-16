@@ -1,0 +1,11 @@
+@import url(./__link/place__link.css);
+@import url(./__url-heading/place__url-heading.css);
+
+.place__website {
+  grid-area: website;
+  font-weight: 400;
+  max-width: 456px;
+  max-height: 46px;
+  margin: 0;
+  margin-bottom: 48px;
+}
