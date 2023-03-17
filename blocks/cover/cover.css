@@ -6,12 +6,22 @@
   background-image: url(../../images/__background.png);
   background-size: cover;
   margin: 0 48px 92px;
-  z-index: 1;
+  z-index: 0;
+}
+
+.cover::before {
+  content: "";
+  background-color: rgba(42, 44, 47, .3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .cover:after {
   content: "";
-  background-color: rgb(42, 44, 47, .3);
+  background-color: rgba(42, 44, 47, .8);
   position: absolute;
   left: 0;
   top: 0;
