@@ -12,14 +12,12 @@
 
 @media (max-width: 1024px) {
   .header {
-    max-width: 928px;
-    margin: 28px 48px 48px;
+    margin-bottom: 48px;
   }
 }
 
 @media (max-width: 768px) {
   .header {
-    max-width: 720px;
     margin: 28px 24px 48px;
   }
 }

@@ -4,24 +4,32 @@
   max-height: 200px;
   font-family: 'Inter', sans-serif;
   font-weight: 900;
-  font-size: 96px;
+  font-size: 6em;
   line-height: 1.04;
-  padding: 0 136px 0;
   margin: 0;
-  margin-bottom: 34px;
+  margin: 0 136px 34px;
 }
 
 @media (max-width: 1024px) {
   .lead__title {
-    padding: 0 104px 0;
-    margin-bottom: 34px;
+    margin: 0 104px 32px;
   }
 }
 
 @media (max-width: 768px) {
   .lead__title {
-    padding: 0 24px 0;
-    margin-bottom: 32px;
+    font-size: 60px;
+    margin: 0 24px 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .lead__title {
+    max-width: 450px;
+    font-size: 40px;
+    line-height: 1.1;
+    margin: 0 25px 0;
+    margin-bottom: 16px;
   }
 }
 
@@ -31,7 +39,7 @@
     max-height: 88px;
     font-size: 40px;
     line-height: 1.1;
-    padding: 0 16px 0;
+    margin: 0 15px 0;
     margin-bottom: 16px;
   }
 }
