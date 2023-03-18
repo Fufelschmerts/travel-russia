@@ -6,5 +6,13 @@
   font-size: 18px;
   line-height: 1.63;
   margin: 0;
-  margin-top: -59px;
+  /* margin-top: -1.625em; */
+}
+
+@media (max-width: 1024px) {
+  .place__paragraph-two {
+    max-width: 456px;
+    max-height: 232px;
+    margin-top: 1.625em;
+  }
 }

@@ -6,3 +6,9 @@
   line-height: 1.63;
   margin: 0;
 }
+
+@media (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
