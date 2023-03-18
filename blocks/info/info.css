@@ -6,3 +6,27 @@
 .info {
   margin: 92px 441px 92px 148px;
 }
+
+@media (max-width: 1024px) {
+  .info {
+    margin: 92px 286px 92px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info {
+    margin: 88px 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .info {
+    margin: 64px 16px;
+  }
+}
+
+@media (max-width: 320px){
+  .info {
+    margin: 64px 16px;
+  }
+}
