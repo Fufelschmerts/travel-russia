@@ -4,21 +4,17 @@
 
 .photo-grid {
   margin: 0 48px 0;
-  max-height: 671px;
 }
 
 @media (max-width: 1024px) {
   .photo-grid {
-    max-height: 942px;
   }
 }
 
 @media (max-width: 768px) {
   .photo-grid {
 
-    margin: 0 24px 0;
   }
-}
 
 @media (max-width: 500px) {
   .photo-grid {
