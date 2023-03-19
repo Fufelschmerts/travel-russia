@@ -1,18 +1,22 @@
 .place {
   display: grid;
   grid-template-areas:
-  "title ."
-  "title website"
-  "image paragraph"
-  "image paragraph-two";
+    "title ."
+    "title website"
+    "image paragraph"
+    "image paragraph-two";
   column-gap: 40px;
+  grid-auto-flow: dense;
   margin-bottom: 80px;
+  max-width: 984px;
+  max-height: 660px;
 }
 
 
 @media (max-width: 1024px) {
   .place {
+    max-width: 928px;
+    max-height: 640px;
     column-gap: 32px;
   }
 }
-

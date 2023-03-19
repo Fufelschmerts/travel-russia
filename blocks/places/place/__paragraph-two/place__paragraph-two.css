@@ -13,6 +13,6 @@
   .place__paragraph-two {
     max-width: 456px;
     max-height: 232px;
-    margin-top: 1.625em;
+    /* margin-top: 1.625em; */
   }
 }
