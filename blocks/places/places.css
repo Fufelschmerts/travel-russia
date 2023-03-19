@@ -1,18 +1,21 @@
-@import url(./place/place.css);
-@import url(./place/__title/place__title.css);
-@import url(./place/__image/place__image.css);
-@import url(./place/__website/place__website.css);
-@import url(./place/__paragraph/place__paragraph.css);
-@import url(./place/__paragraph-two/place__paragraph-two.css);
-
 .places {
-  max-width: 984px;
-  margin: 92px 148px;
+  padding: 92px 148px;
 }
 
 @media (max-width: 1024px) {
   .places {
-    max-width: 928px;
-    margin: 92px 48px;
+    padding: 92px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places {
+    padding: 88px 24px 90px;
+  }
+}
+
+@media (max-width: 500px) {
+  .places {
+    padding: 68px 0 62px;
   }
 }

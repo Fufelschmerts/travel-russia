@@ -1,12 +1,14 @@
+@import url(./__link/cover__link.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 
 .cover {
   position: relative;
-  background-image: url(../../images/__background.png);
+  background-image: url(../../images/cover__background.png);
   background-size: cover;
   margin: 0 48px 92px;
   z-index: 0;
+
 }
 
 .cover::before {
@@ -29,7 +31,7 @@
   height: 100%;
   z-index: -1;
   opacity: 0;
-  transition: opacity .3s;
+  transition: opacity .3s ease-in-out;
 }
 
 .cover:hover:after {
