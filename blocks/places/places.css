@@ -1,21 +1,27 @@
 .places {
-  padding: 92px 148px;
+  margin: 92px 148px;
 }
 
 @media (max-width: 1024px) {
   .places {
-    padding: 92px 48px;
+    margin: 92px 48px;
   }
 }
 
 @media (max-width: 768px) {
   .places {
-    padding: 88px 24px 90px;
+    margin: 88px 24px 90px;
   }
 }
 
 @media (max-width: 500px) {
   .places {
-    padding: 68px 0 62px;
+    margin: 68px 24px 62px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places {
+    margin: 68px 0 62px;
   }
 }

@@ -10,14 +10,9 @@
   margin-bottom: 48px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .place__website {
-    padding: 0 50px 0;
-  }
-}
-
-@media (max-width: 500px) {
-  .place__website {
+    margin-bottom: 32px;
     padding: 0 16px 0;
   }
 }

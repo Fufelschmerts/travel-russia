@@ -6,9 +6,9 @@
   position: relative;
   background-image: url(../../images/cover__background.png);
   background-size: cover;
+  background-position: center;
   margin: 0 48px 92px;
   z-index: 0;
-
 }
 
 .cover::before {
@@ -36,4 +36,22 @@
 
 .cover:hover:after {
   opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    margin: 0 0 92px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin: 0 0 130px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cover {
+    margin: 0 0 64px;
+  }
 }
