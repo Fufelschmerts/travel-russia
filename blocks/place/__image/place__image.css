@@ -20,8 +20,8 @@
 
 @media (max-width: 500px) {
   .place__image {
-    max-width: 430px;
-    max-height: 430px;
+    max-width: 390px;
+    max-height: 390px;
   }
 }
 
