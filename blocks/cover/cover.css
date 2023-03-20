@@ -55,3 +55,9 @@
     margin: 0 0 64px;
   }
 }
+
+@media (max-width: 320px) {
+  .cover {
+    margin: 0 0 50px;
+  }
+}
