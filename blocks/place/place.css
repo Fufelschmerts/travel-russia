@@ -10,7 +10,7 @@
     "title website"
     "image article";
   column-gap: 40px;
-  grid-auto-flow: dense;
+  row-gap: 48px;
   margin-bottom: 80px;
 }
 
