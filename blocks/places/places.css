@@ -2,6 +2,12 @@
   margin: 92px 148px;
 }
 
+@media (max-width: 1124px) {
+  .places {
+    margin: 92px 88px;
+  }
+}
+
 @media (max-width: 1024px) {
   .places {
     margin: 92px 48px;
@@ -22,6 +28,6 @@
 
 @media (max-width: 320px) {
   .places {
-    margin: 68px 0 50px;
+    margin: 68px 2px 50px;
   }
 }

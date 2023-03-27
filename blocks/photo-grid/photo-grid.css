@@ -17,3 +17,9 @@
     margin: 0 16px 0;
   }
 }
+
+@media (max-width: 320px) {
+  .photo-grid {
+    margin: 0 2px 0;
+  }
+}
