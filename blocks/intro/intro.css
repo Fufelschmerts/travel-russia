@@ -4,29 +4,32 @@
 @import url(./__list/__list-parameter/intro__list-parameter.css);
 
 .intro {
-  margin: 92px 442px 92px 148px;
+  margin: 92px 148px 92px;
+  max-width: 690px;
 }
 
-@media (max-width: 1124px) {
+@media (max-width: 1140px) {
   .intro {
-    margin: 92px 286px 92px 88px;
+    margin: 92px 88px 92px;
   }
 }
 
 @media (max-width: 1024px) {
   .intro {
-    margin: 92px 286px 92px 48px;
+    margin: 92px 48px 92px;
   }
 }
 
 @media (max-width: 768px) {
   .intro {
+    max-width: 720px;
     margin: 88px 24px;
   }
 }
 
 @media (max-width: 500px) {
   .intro {
+    max-width: 288px;
     margin: 64px 16px;
   }
 }
