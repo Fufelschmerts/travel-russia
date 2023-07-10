@@ -24,7 +24,7 @@
 + Transition
 + Pseudo elements
 
-Страница  сверстана для использования на устройствах различных типов
+Страница сверстана для использования на устройствах различных типов
 с разрешением от 320px до 1280px. Для реализации плавных переходов
 была применена адаптивная верстка с использованием медиазапросов.
 
@@ -39,6 +39,9 @@
 + [Проект на gh-pages](https://fufelschmerts.github.io/travel-russia/)
 + [Макет Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=28503-0&t=fOvJTqCiQE2PYi5W-0)
 
+
 ---
-P. S. Первая адаптивная верстка
+by Yandex Practicum.
+
+Student: [Ivan Malinovsky](https://malinovsky-ivan.me)
 
